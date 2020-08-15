@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.bp3-card {
+  margin-top: 20px;
+  padding: 10px;
+}
+.bp3-card:hover {
+  box-shadow: 0px 3px 10px #ccc;
+  transition: all 0.5s ease;
+}
+.active .bp3-card {
+  color: #fff;
+  background-color: rgb(16, 107, 163);
+}
