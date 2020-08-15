@@ -1,12 +1,7 @@
 import React from "react";
 import { Card } from "@blueprintjs/core";
 
-const taskNameToId = name => {
-  return `task-${name
-    .toLowerCase()
-    .split(" ")
-    .join("-")}`;
-};
+const taskNameToId = name => `task-${name.toLowerCase().split(" ").join("-")}`;
 
 const Task = ({ name }) => {
 
