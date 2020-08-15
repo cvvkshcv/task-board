@@ -41,7 +41,7 @@ class App extends Component {
   moveTask(i, direction, task) {
     const section = STAGE_NAMES[i];
     let nextSection;
-    if (direction == 'forward') {
+    if (direction === 'forward') {
       nextSection = STAGE_NAMES[i + 1]
     } else {
       nextSection = STAGE_NAMES[i - 1];

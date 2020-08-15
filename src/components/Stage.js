@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 import Task from "./Task";
-import { Card, Button, InputGroup, Collapse } from "@blueprintjs/core";
+import { Card, Button, InputGroup } from "@blueprintjs/core";
 
 const Stage = ({ name, stageId, tasks, removeTaskFrom, addTaskTo, moveTask }) => {
   const stageTestId = `stage-${stageId}`;
