@@ -2,6 +2,7 @@
   "name": "project",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://cvvkshcv.github.io/task-board/",
   "dependencies": {
     "@blueprintjs/core": "^3.19.1",
     "@testing-library/react": "^8.0.1",
@@ -15,7 +16,10 @@
   },
   "scripts": {
     "start": "HOST=0.0.0.0 PORT=8000 ./node_modules/.bin/react-scripts start",
+    "build": "react-scripts build",
+    "eject": "react-scripts eject",
     "pretest": "npm install",
+    "deploy": "gh-pages -d build",
     "test": "rm -rf ./junit.xml && ./node_modules/.bin/react-scripts test --verbose --env=jsdom --testResultsProcessor ./node_modules/jest-junit"
   },
   "devDependencies": {
